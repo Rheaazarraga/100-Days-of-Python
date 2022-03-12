@@ -17,6 +17,7 @@ print("Hello " + "Bita")
 
 ##############################
 
-# Python input() function: allows the user to give data/add input within the console for our code to work with
-# input("What is your name?")
+# Python input() function: allows the user to input in the console
+# Then print() will print the word "Hello" and the user input
+# input("What is your name?") will prompt the user to respond in the console
 print("Hello " + input("What is your name?") + "!")
