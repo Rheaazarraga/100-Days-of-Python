@@ -6,17 +6,14 @@ two_digit_number = input("Type a two digit number: ")
 # 🚨 Don't change the code above 👆
 
 ####################################
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 # 1. check the data type of two_digit_number
 print(type(two_digit_number)) # string type
 
 # 2. Get the first and second digits by grabbing the index of each, then convert str to int
-first_digit = two_digit_number[0]
-second_digit = two_digit_number[1]
-# print(first_digit)
-# print(second_digit)
-result = int(first_digit) + int(second_digit) # converts the type from string to numbers
-# print(type(first_digit))
-print(result)
+first_digit = int(two_digit_number[0])
+second_digit = int(two_digit_number[1])
+# 3. Add the 2 digits together
+print(first_digit + second_digit)
 
