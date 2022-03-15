@@ -21,3 +21,8 @@ print("Hello " + "Bita")
 # Then print() will print the word "Hello" and the user input
 # input("What is your name?") will prompt the user to respond in the console
 print("Hello " + input("What is your name?") + "!")
+
+# variables
+name = input("What is your name?")
+# variable is attached to the input value - data is saved from input action to a name
+print(name)
