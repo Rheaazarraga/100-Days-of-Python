@@ -40,3 +40,30 @@ print(70 + float("100.5")) # converting string "100.5" into a floating point #, 
 print(type(str(70)+ str(100))) # results in 70100 because it has been converted to string data type
 
 ##############################
+
+# Mathematical Operations in Python - +, -, *, /, ** (exponent/ to the power of)
+# *note* dividing will always give you a float
+print(2**3) # = 8
+
+# PEMDAS: order of operation is a rule that tells the correct sequence of steps for evaluating a math expression - and works from Left to Right (PEMDASLR)
+# *note* in Canada, we use BEDMAS, but it's essentially the same and order of multiplcation and division doesn't matter, just work from left to right as mentioned previously
+# () parentheses
+# ** exponents
+# * multiplication
+# / division
+# + addition
+# - subtraction
+
+#  --- PRACTICE EXAMPLE ---
+print(3 * 3 + 3 / 3 - 3)
+# 3*3 = 9
+# 3/3 = 1
+# 9+1 = 10
+# 10-3 = 7
+
+# --- change line 57 to now equal 3 ---
+print(3 * (3 + 3) / 3 - 3)
+# (3 + 3) = 6 becomes highest priority
+# 3 * 6 = 18
+# 18 / 3 = 6
+# 6 - 3 = 3
