@@ -26,3 +26,6 @@ print("Hello " + input("What is your name?") + "!")
 name = input("What is your name?")
 # variable is attached to the input value - data is saved from input action to a name
 print(name)
+# refactor print(len(input("What is your name?"))) by using variables
+length = len(name)
+print(length)
