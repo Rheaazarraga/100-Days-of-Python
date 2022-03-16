@@ -8,7 +8,7 @@ two_digit_number = input("Type a two digit number: ")
 ####################################
 # Write your code below this line 👇
 
-# 1. check the data type of two_digit_number
+# 1. Check the data type of two_digit_number
 print(type(two_digit_number)) # string type
 
 # 2. Get the first and second digits by grabbing the index of each, then convert str to int
@@ -26,3 +26,20 @@ weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+
+# 1. check the data types
+# print(type(height)) = str
+# print(type(weight)) = str
+
+# 2. Convert the strings so height(m) becomes a float, and weight(kg) becomes an int
+height_as_float = float(height)
+weight_as_int = int(weight)
+
+# 3. Use the exponent operator **
+bmi = weight_as_int / height_as_float ** 2
+# an alternative way using multiplication and PEDMAS:
+# bmi = weight_as_int / (height_as_float * height_as_float)
+
+# Change the bmi result to display as a whole number
+bmi_as_int = int(bmi)
+print(bmi_as_int)
