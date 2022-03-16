@@ -67,3 +67,16 @@ print(3 * (3 + 3) / 3 - 3)
 # 3 * 6 = 18
 # 18 / 3 = 6
 # 6 - 3 = 3
+
+##############################
+
+# Rounding numbers up or down using the round() function
+print(8/3) # = 2.66666 floating point number
+print(round(8/3)) # = 3
+print(round(8/3, 2)) # = 2.67 this second parameter rounds the number to a given precision in decimal points
+print(round(8/3, 3)) # = 2.667 and so on
+print(8//3) # this floors the number = 2
+
+# important to remember that even with a clean division, ie. 4/2, the result would still return as a floating point number (2.0)
+
+# incrementing and decrementing are the same as JS: +=, -=, *=, /=
