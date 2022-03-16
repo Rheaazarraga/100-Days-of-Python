@@ -17,6 +17,7 @@ second_digit = int(two_digit_number[1])
 # 3. Add the 2 digits together
 print(first_digit + second_digit)
 
+# ------------------------------------------------------------
 # Exercise 2: Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
 # The BMI is a measure of some's weight taking into account their height. e.g. If a tall person and a short person both weigh the same amount, the short person is usually more overweight.
 # The BMI is calculated by dividing a person's weight (in kg) by the square of their height (in m):
@@ -25,7 +26,7 @@ height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 # 1. check the data types
 # print(type(height)) = str
@@ -43,3 +44,10 @@ bmi = weight_as_int / height_as_float ** 2
 # Change the bmi result to display as a whole number
 bmi_as_int = int(bmi)
 print(bmi_as_int)
+
+# ------------------------------------------------------------
+
+# Exercise 3: Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
+# It will take your current age as the input and output a message with our time left in this format: You have x days, y weeks, and z months left.
+# Where x, y and z are replaced with the actual calculated numbers
+# There are 365 days in a year, 52 weeks in a year and 12 months in a year
