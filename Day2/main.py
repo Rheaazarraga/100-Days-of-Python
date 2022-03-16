@@ -80,3 +80,11 @@ print(8//3) # this floors the number = 2
 # important to remember that even with a clean division, ie. 4/2, the result would still return as a floating point number (2.0)
 
 # incrementing and decrementing are the same as JS: +=, -=, *=, /=
+
+##############################
+
+# f-String (string literals): allows you to combine different data types in a string statement
+score = 5 # int
+height = 1.8 # float
+isWinning = True # boolean
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
