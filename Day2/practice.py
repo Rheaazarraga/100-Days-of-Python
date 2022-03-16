@@ -51,3 +51,24 @@ print(bmi_as_int)
 # It will take your current age as the input and output a message with our time left in this format: You have x days, y weeks, and z months left.
 # Where x, y and z are replaced with the actual calculated numbers
 # There are 365 days in a year, 52 weeks in a year and 12 months in a year
+
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+#print(type(age)) - string
+# 1. Convert age to number
+age_as_int = int(age)
+
+# 2. Calculate how many years are remaining from a 90-year life span based on the users input
+years_remaining = 90 - age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+
+# 3. Implement the f-string format - make printing easier by storing the f-string in a variable
+message = f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left."
+print(message)
+
