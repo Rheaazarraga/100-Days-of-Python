@@ -18,4 +18,4 @@ An introduction to Python basics. Variables and string manipulation, concatenati
 
 ### ⭐️ Day 2 :
 
-Data types, Numbers, Operations, Type Conversion, f-Strings.
+Data types, Numbers, Operations, Type Conversion, f-Strings. The lessons went over PEMDAS for proper calculations and introduced the round() function, and the format() function. The project for the day was to create a tip calculator which would determine each person's bill total, including the tip.
