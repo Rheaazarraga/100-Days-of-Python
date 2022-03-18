@@ -31,6 +31,11 @@ total_bill = bill + total_tip_amount
 bill_per_person = total_bill / num_of_people
 
 final_amount = round(bill_per_person, 2)
-print(f"Each person should pay: ${final_amount}")
+# print(f"Each person should pay: ${final_amount}")
 
 # for the original test case amount of $150.00, the result final_amount still prints as #33.6, which is a formatting problem
+# to solve the formatting issue you must use format() function and syntax as follows
+
+# :.2f specifies that we want 2 decimal points in the resulting float, and format function to pass in bill_per_person
+final_amount = "{:.2f}".format(bill_per_person)
+print(f"Each person should pay: ${final_amount}")
