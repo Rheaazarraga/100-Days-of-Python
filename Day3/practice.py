@@ -56,3 +56,16 @@ else:
     print(f"Your BMI is {bmi}, you are clinically obese.")
 
 # ------------------------------------------------------------
+
+# Exercise 3: Write a program that works out whether if a given year is a leap year.
+# A normal year has 365 days, leap years have 366, with an extra day in February.
+# This is how you work out whether if a particular year is a leap year:
+# on every year that is evenly divisible by 4
+# **except** every year that is evenly divisible by 100
+# **unless** the year is also evenly divisible by 400
+
+# 🚨 Don't change the code below 👇
+year = int(input("Which year do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
