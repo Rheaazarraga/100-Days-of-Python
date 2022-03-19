@@ -18,3 +18,8 @@ else:
 
 # remember comparison operators : >x, <x, >=x, <=x, ==, !=
 # single = is assigning a value to a variable, double == check's the equality of values
+
+# modulo operator % (same as JS) gives you the remainder after a division:
+# 7 % 2  - 7 split into portions of 2 is 2 + 2 + 2 + 1 (can be divided 3 times with a remainder of 1)
+# 7 % 2 = 1
+# 7 % 3 = 3 + 3 + 1 (leaves remainder of 1)
