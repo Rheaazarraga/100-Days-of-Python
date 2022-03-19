@@ -69,3 +69,12 @@ year = int(input("Which year do you want to check? "))
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
+
+# must be cleanly divisible by 4
+# must also NOT be cleanly divisible by 100
+# must also be cleanly divisible by 400
+
+if (year % 4 == 0 or year % 400 == 0) and year % 100 != 0:
+    print("Leap year.")
+else:
+    print("Not leap year.")
