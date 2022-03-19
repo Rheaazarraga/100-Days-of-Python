@@ -16,6 +16,8 @@ if height > 120: # testing condition uses colon's instead of {}'s
 else:
     print("Sorry, you're not tall enough to ride.") # within the scope of the else
 
+##############################
+
 # remember comparison operators : >x, <x, >=x, <=x, ==, !=
 # single = is assigning a value to a variable, double == check's the equality of values
 
@@ -23,3 +25,22 @@ else:
 # 7 % 2  - 7 split into portions of 2 is 2 + 2 + 2 + 1 (can be divided 3 times with a remainder of 1)
 # 7 % 2 = 1
 # 7 % 3 = 3 + 3 + 1 (leaves remainder of 1)
+
+##############################
+
+# nested if/ else & elif statements:
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height > 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("How old are you?"))
+    if age < 12:
+        print("Please pay $5.")
+    elif age <=18: # catches everybody between the ages of 12-18
+        print("Please pay $7.")
+    else:
+        print("Please pay $12.")
+else:
+    print("Sorry, you're not tall enough to ride.")
