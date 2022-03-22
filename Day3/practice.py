@@ -99,7 +99,7 @@ add_pepperoni = input("Do you want pepperoni? Y or N ")
 extra_cheese = input("Do you want extra cheese? Y or N ")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# Write your code below this line 👇
 
 # S = 15
 # M = 20
@@ -123,3 +123,22 @@ if extra_cheese == "Y":
     bill += 1
 
 print(f"Your final bill is: ${bill}.")
+
+# ------------------------------------------------------------
+
+# Exercise 5: Love Calculator
+# write a program that tests the compatibility between two people.
+# To work out the love score between two people:
+# Take both people's names and check for the number of times the letters in the word TRUE occurs.
+# Then check for the number of times the letters in the word LOVE occurs.
+# Then combine these numbers to make a 2-digit number.
+# Hint 1: Use the lower() function to change all the letters in a string to lower case
+# Hint 2: Use the count() function to count the number of times a letter occurs in a string
+
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
