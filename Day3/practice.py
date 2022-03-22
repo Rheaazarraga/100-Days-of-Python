@@ -143,3 +143,27 @@ name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
 # Write your code below this line 👇
+
+Lovers = name1.lower() + name2.lower()
+t = Lovers.count("t")
+r = Lovers.count("r")
+u = Lovers.count("u")
+e = Lovers.count("e")
+
+true = t + r + u + e # this is the first digit of the love score
+
+l = Lovers.count("l")
+o = Lovers.count("o")
+v = Lovers.count("v")
+e = Lovers.count("e")
+
+love = l + o + v + e # this is the second digit of the love score
+
+Love_score = int(str(true) + str(love))
+
+if (Love_score < 10) or (Love_score > 85):
+    print(f"Your score is {Love_score}, you go together like coke and mentos.")
+elif (Love_score >= 40) and (Love_score <= 50):
+    print(f"Your score is {Love_score}, you are alright together.")
+else:
+    print(f"Your score is {Love_score}.")
