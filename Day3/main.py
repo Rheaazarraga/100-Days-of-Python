@@ -54,3 +54,21 @@ if height > 120:
     print(f"Your final bill is ${bill}") #note the indentation
 else:
     print("Sorry, you're not tall enough to ride.")
+
+##############################
+
+# Logical Operators - combining conditions
+# and, or, not
+
+# a = 12
+# a > 15 = false
+# a > 10 = true
+# a > 10 and a < 13 =  true
+# a > 15 and a < 13 = false (if one condition is false, automatically becomes false)
+
+# if only 1 condition needs to be true, use or operator
+
+# not operator reverses a condition - if a condition is true, it becomes false and if false, becomes true
+# not a > 15 = true because 12 is not greater than 15
+
+
