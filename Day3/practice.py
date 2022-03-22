@@ -159,7 +159,7 @@ e = Lovers.count("e")
 
 love = l + o + v + e # this is the second digit of the love score
 
-Love_score = int(str(true) + str(love))
+Love_score = int(str(true) + str(love)) # must convert strings to ints otherwise comparison operators in conditional statements below will give a type error
 
 if (Love_score < 10) or (Love_score > 85):
     print(f"Your score is {Love_score}, you go together like coke and mentos.")
