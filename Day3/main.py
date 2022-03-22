@@ -71,4 +71,33 @@ else:
 # not operator reverses a condition - if a condition is true, it becomes false and if false, becomes true
 # not a > 15 = true because 12 is not greater than 15
 
+##############################
 
+# using rollercoaster example above, within the existing price categories, include a separate price category for people going through a midlife crisis (aged 45-55) and get to ride for free
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height > 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("How old are you?"))
+    if age < 12:
+        bill = 5
+        print("Child tickets are $5.")
+    elif age <=18: # catches everybody between the ages of 12-18
+        bill = 7
+        print("Youth tickets are $7.")
+    elif age >=45 and age <=55:
+        print("Everything's gonna be ok. Have a free ride on us!")
+    else:
+        bill = 12
+        print("Adult tickets are $12.")
+
+    wants_photo = input("Do you want a photo taken? Y or N: ")
+    if wants_photo == "Y":
+    # Add $3 to their bill
+        bill += 3
+
+    print(f"Your final bill is ${bill}") #note the indentation
+else:
+    print("Sorry, you're not tall enough to ride.")
