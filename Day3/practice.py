@@ -81,7 +81,8 @@ else:
 
 # ------------------------------------------------------------
 
-# Exercise 4: Build a pizza order program
+# Exercise 4: Python Pizza
+# Build a pizza order program
 # Based on a user's order, work out their final bill.
 
 # Small Pizza: $15
@@ -141,4 +142,4 @@ name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# Write your code below this line 👇
