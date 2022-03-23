@@ -15,3 +15,26 @@ Don't worry about me, and tell dad to take good care of my PERSONAL_ITEM. I'll b
 Love,
 
 NAME"""
+
+OCCUPATION = input("enter an occupation: ")
+COUNTRY = input("enter the name of a country: ")
+PLURAL_NOUN = input("enter a plural noun: ")
+VERB = input("enter a verb: ")
+ADJECTIVE = input("enter a descriptive word: ")
+PERSONAL_ITEM = input("now enter a personal item: ")
+HOLIDAY = input("enter any holiday of choice: ")
+NAME = input("What is your name? ")
+
+storyString = (storyString
+
+               .replace("OCCUPATION", OCCUPATION)
+               .replace("COUNTRY", COUNTRY, 2)
+               .replace("PLURAL_NOUN", PLURAL_NOUN)
+               .replace("VERB", VERB)
+               .replace("ADJECTIVE", ADJECTIVE)
+               .replace("PERSONAL_ITEM", PERSONAL_ITEM)
+               .replace("HOLIDAY", HOLIDAY)
+               .replace("NAME", NAME)
+               )
+
+print(storyString)
