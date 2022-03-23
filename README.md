@@ -21,4 +21,4 @@ An introduction to Python basics. Variables and string manipulation, concatenati
 Data types, Numbers, Operations, Type Conversion, f-Strings. The lessons went over PEMDAS for proper calculations and introduced the round() function, and the format() function. The project for the day was to create a tip calculator which would determine each person's bill total, including the tip.
 
 ### ⭐️ Day 3 :
-Conditional Statements, Logical Operators, Code Blocks and Scope. The project for the day was to build a 'Choose Your Own Adventure Game' with a goal to find the treasure.
+Conditional Statements, Logical Operators, Code Blocks and Scope. This day had a total of 5 interactive challenges involving implementation of logical operators, and nested conditionals. The project was to create a 'Choose Your Own Adventure Game', using conditionals, learned from day's lessons,  with a goal to find the treasure.
