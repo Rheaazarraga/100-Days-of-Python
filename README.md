@@ -22,3 +22,6 @@ Data types, Numbers, Operations, Type Conversion, f-Strings. The lessons went ov
 
 ### ⭐️ Day 3 :
 Conditional Statements, Logical Operators, Code Blocks and Scope. This day had a total of 5 interactive challenges involving implementation of logical operators, and nested conditionals. The project was to create a 'Choose Your Own Adventure Game', using conditionals, learned from day's lessons,  with a goal to find the treasure.
+
+### ⭐ Day 4 :
+Randomisation and Python Lists.
