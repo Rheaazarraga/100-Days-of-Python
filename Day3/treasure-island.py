@@ -22,7 +22,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+print("Your mission is to find the treasure and escape with your life.")
 
 crossroad = input("You are at a crossroad. Which path will you take? Type left or right: ")
 if crossroad == "left":
@@ -31,7 +31,13 @@ if crossroad == "left":
     if nextChoice == "swamp":
         print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panick, but the thing pulls you into the water with it. You drowned to death.")
     else:
-        print("You race through the trees in the dark forest, and see a mysterious hut ahead with the windows lit up.\n As you approach the hut, you notice 3 different colored doors.")
-
+        print("You race through the trees in the dark forest, and see a mysterious hut ahead with the windows lit up.\nAs you approach the hut, you notice 3 different colored doors.")
+        doors = input("It's clear you are meant to go through only one of the doors. Which will you choose? Type red, green or blue: ")
+        if doors == "red":
+            print("You walk into a dark room and are set on fire. You burn to death.")
+        elif doors == "green":
+            print("As you enter, you step in a bear trap.\nYou hear a large growl come from the opposite corner of the room with beaming red eyes coming closer towards you.\nParalyzed by your fear and inability to move, you let out a bloodcurdling scream.\nGame over.")
+        else:
+            print("You find a mound of disturbed ground in the center of the room, and a rusty shovel on the floor next to it.\nYou begin to dig and suddenly, you hit something with a loud 'KLANG!'\nCongrats!! You found the treasure!")
 else:
     print("The end of the path leads to a cliff. You take a step forward to see what lies below. The ground quickly collapses beneath you and you fall to your death.")
