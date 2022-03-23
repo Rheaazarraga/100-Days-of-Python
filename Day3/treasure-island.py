@@ -24,15 +24,15 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure and escape with your life.")
 
-crossroad = input("You are at a crossroad. Which path will you take? Type left or right: ")
+crossroad = input('You are at a crossroad. Which path will you take? Type "left" or "right": ').lower()
 if crossroad == "left":
     print("You have stumbled upon a murky swamp surrounded by a forest.")
-    nextChoice = input("Will you trench through the swamp or go through the forest? Type swamp or forest: ")
+    nextChoice = input('Will you trench through the swamp or go through the forest? Type "swamp" or "forest": ').lower()
     if nextChoice == "swamp":
-        print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panick, but the thing pulls you into the water with it. You drowned to death.")
+        print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panick, but the thing pulls you into the water with it. You drown to death.")
     else:
         print("You race through the trees in the dark forest, and see a mysterious hut ahead with the windows lit up.\nAs you approach the hut, you notice 3 different colored doors.")
-        doors = input("It's clear you are meant to go through only one of the doors. Which will you choose? Type red, green or blue: ")
+        doors = input('It\'s clear you are meant to go through only one of the doors. Which will you choose? Type "red", "green" or "blue": ').lower()
         if doors == "red":
             print("You walk into a dark room and are set on fire. You burn to death.")
         elif doors == "green":
