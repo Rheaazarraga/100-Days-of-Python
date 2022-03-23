@@ -28,16 +28,18 @@ crossroad = input('You are at a crossroad. Which path will you take? Type "left"
 if crossroad == "left":
     print("You have stumbled upon a murky swamp surrounded by a forest.")
     nextChoice = input('Will you trench through the swamp or go through the forest? Type "swamp" or "forest": ').lower()
-    if nextChoice == "swamp":
-        print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panick, but the thing pulls you into the water with it. You drown to death.")
-    else:
+    if nextChoice == "forest":
         print("You race through the trees in the dark forest, and see a mysterious hut ahead with the windows lit up.\nAs you approach the hut, you notice 3 different colored doors.")
         doors = input('It\'s clear you are meant to go through only one of the doors. Which will you choose? Type "red", "green" or "blue": ').lower()
         if doors == "red":
             print("You walk into a dark room and are set on fire. You burn to death.")
         elif doors == "green":
-            print("As you enter, you step in a bear trap.\nYou hear a large growl come from the opposite corner of the room with beaming red eyes coming closer towards you.\nParalyzed by your fear and inability to move, you let out a bloodcurdling scream.\nGame over.")
+            print(
+                "As you enter, you step in a bear trap.\nYou hear a large growl come from the opposite corner of the room with beaming red eyes coming closer towards you.\nParalyzed by your fear and inability to move, you let out a bloodcurdling scream.\nGame over.")
         else:
-            print("You find a mound of disturbed ground in the center of the room, and a rusty shovel on the floor next to it.\nYou begin to dig and suddenly, you hit something with a loud 'KLANG!'\nCongrats!! You found the treasure!")
+            print(
+                "You find a mound of disturbed ground in the center of the room, and a rusty shovel on the floor next to it.\nYou begin to dig and suddenly, you hit something with a loud 'KLANG!'\nCongrats!! You found the treasure!")
+    else:
+        print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panick, but the thing pulls you into the water with it. You drown to death.")
 else:
     print("The end of the path leads to a cliff. You take a step forward to see what lies below. The ground quickly collapses beneath you and you fall to your death.")
