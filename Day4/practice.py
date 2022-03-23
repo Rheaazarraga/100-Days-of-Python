@@ -36,4 +36,12 @@ names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# Write your code below this line 👇
+# get the total number of items in the list
+print(len(names))
+
+num_items = len(names)
+random_name = random.randint(0, num_items - 1) # because like in JS, the length of a list minus 1 = the index position
+# print(random_name)
+person_paying = names[random_name]
+print(person_paying + " is going to buy the meal today!")
