@@ -19,3 +19,17 @@ print (randomFloat)
 
 love_score = random.randint(1, 100)
 print(f"Your love score is {love_score}")
+
+##############################
+
+# Lists: are a data structure - just like arrays in JS
+# store many pieces of related data with the same order of indices starting at 0
+# fruits = ["apple", "banana"]
+states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut"]
+print(states_of_america[0]) # prints Delaware
+print(states_of_america[-1]) # negative index will count backwards from the end of the list - prints Connecticut
+states_of_america[1] = "Pencilvania" # reassigns the value of the item at index 1
+
+states_of_america.append("Bitaland") # append function adds a single item to the end of the list
+states_of_america.extend(["Bitaland, Besquitteropolis"]) # adds to the states of america list and extends it by 2 more items
+# along with many other list functions found in python docs
