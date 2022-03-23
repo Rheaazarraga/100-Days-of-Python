@@ -40,6 +40,6 @@ if crossroad == "left":
             print(
                 "You find a mound of disturbed ground in the center of the room, and a rusty shovel on the floor next to it.\nYou begin to dig and suddenly, you hit something with a loud 'KLANG!'\nCongrats!! You found the treasure!")
     else:
-        print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panick, but the thing pulls you into the water with it. You drown to death.")
+        print("You feel something swimming beside you but can't see through the water...\nYou try to swim faster in a panic, but the thing pulls you into the water with it. You drown to death.")
 else:
     print("The end of the path leads to a cliff. You take a step forward to see what lies below. The ground quickly collapses beneath you and you fall to your death.")
