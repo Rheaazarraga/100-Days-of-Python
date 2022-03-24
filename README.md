@@ -24,4 +24,4 @@ Data types, Numbers, Operations, Type Conversion, f-Strings. The lessons went ov
 Conditional Statements, Logical Operators, Code Blocks and Scope. This day had a total of 5 interactive challenges involving implementation of logical operators, and nested conditionals. The project was to create a 'Choose Your Own Adventure Game', using conditionals, learned from day's lessons,  with a goal to find the treasure.
 
 ### ⭐ Day 4 :
-Randomisation and Python Lists. This lesson opened with a brief discussion on deterministic pseudorandom numbers generator (PRNG) and truly random numbers, with an introduction to Python docs and askpython.com 
+Randomisation and Python Lists. This lesson opened with a brief overview of deterministic pseudorandom numbers generator (PRNG) and truly random numbers, with an introduction to Python docs and askpython.com 
