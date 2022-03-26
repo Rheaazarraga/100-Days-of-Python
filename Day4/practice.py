@@ -77,10 +77,11 @@ position = input("Where do you want to put the treasure? ")
 
 #Write your code below this row 👇
 
+# print(type(position)) = str
 
-
-
-
+horizontal = int(position[0]) # column
+vertical = int(position[1]) # row
+map[vertical - 1][horizontal - 1] = "X"
 
 #Write your code above this row 👆
 
