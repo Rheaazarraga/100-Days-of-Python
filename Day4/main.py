@@ -33,3 +33,13 @@ states_of_america[1] = "Pencilvania" # reassigns the value of the item at index 
 states_of_america.append("Bitaland") # append function adds a single item to the end of the list
 states_of_america.extend(["Bitaland, Besquitteropolis"]) # adds to the states of america list and extends it by 2 more items
 # along with many other list functions found in python docs
+
+# IndexError: index out of range error are common with large lists, usually occur when the index doesn't exist. Remember to use [index] - 1
+dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
+# how can we use lists to keep them within the same dirty_dozen container, but separate the fruits and vegetables?
+# you can make 2 lists:
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Cherries", "Pears", "Tomatoes"]
+vegetables = ["Spinach", "Kale", "Celery", "Potatoes"]
+# then use nested lists!
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen) # [[], []]
