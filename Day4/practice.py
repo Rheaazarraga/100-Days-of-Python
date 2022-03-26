@@ -45,3 +45,23 @@ random_name = random.randint(0, num_items - 1) # because like in JS, the length 
 # print(random_name)
 person_paying = names[random_name]
 print(person_paying + " is going to buy the meal today!")
+
+# ------------------------------------------------------------
+
+# Exercise 3: Treasure Map
+# Write a program that will mark a spot with an X.
+# In the starting code, you will find a variable called map.
+# This map contains a nested list. When map is printed this is what the nested list looks like:
+
+# ['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️'],['⬜️', '⬜️', '⬜️']
+
+# In the starting code, we have used new lines (\n) to format the three rows into a square, like this:
+
+# ['⬜️', '⬜️', '⬜️']
+#
+# ['⬜️', '⬜️', '⬜️']
+#
+# ['⬜️', '⬜️', '⬜️']
+
+# This is to try and simulate the coordinates on a real map.
+# Write a program that allows you to mark a square on the map using a two-digit system. The first digit is the vertical column number and the second digit is the horizontal row number.
