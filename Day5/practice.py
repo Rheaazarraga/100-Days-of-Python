@@ -22,3 +22,16 @@ for n in range(0, len(student_heights)):
 # 🚨 Don't change the code above 👆
 
 # Write your code below this row 👇
+
+total_height = 0
+for height in student_heights:
+    total_height += height
+print(total_height)
+
+number_of_students = 0
+for student in student_heights:
+    number_of_students += 1 # ensures that the for loop iterates as many times as there are items in the list aka list length
+print(number_of_students)
+
+average_height_of_students = round(total_height / number_of_students)
+print(average_height_of_students)
