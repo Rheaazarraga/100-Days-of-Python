@@ -35,3 +35,13 @@ print(number_of_students)
 
 average_height_of_students = round(total_height / number_of_students)
 print(average_height_of_students)
+
+# ------------------------------------------------------------
+
+# Exercise 2: Highest Score
+# Write a program that calculates the highest score from a List of scores.
+
+# e.g. student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+# **Important** you are not allowed to use the max or min functions. The output words must match the example. i.e
+# Output: "The highest score in the class is: x"
+
