@@ -25,4 +25,7 @@ Conditional Statements, Logical Operators, Code Blocks and Scope. This day had a
 
 ### ⭐ Day 4 :
 Randomisation and Python Lists. This lesson opened with a brief overview of deterministic pseudorandom numbers generator (PRNG) and truly random numbers, with an introduction to Python docs and askpython.com.
-The daily project was to make a Rock Paper Scissors game against the computer, using python's random module.
+The daily project was to make a Rock Paper Scissors game against the computer, using python's random module and ascii art.
+
+### ⭐ Day 5:
+For loops, Range and Code Blocks.
