@@ -45,7 +45,7 @@ print(average_height_of_students)
 # **Important** you are not allowed to use the max or min functions. The output words must match the example. i.e
 # Output: "The highest score in the class is: x"
 
-# Hint: Think about the logic before writing code. How can you compare numbers against each other to see which one is larger?
+# Hint: Think about the logic first: How can you compare numbers against each other to see which one is larger?
 
 # 🚨 Don't change the code below 👇
 student_scores = input("Input a list of student scores ").split()
