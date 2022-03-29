@@ -26,3 +26,34 @@ scissors = '''
 '''
 
 #Write your code below this line 👇
+import random
+
+users_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+
+computers_choice = random.randint(0, 2)
+print(computers_choice)
+
+if users_choice == 0:
+  print(rock)
+  if computers_choice == 1:
+    print(paper + "The computer wins")
+  elif computers_choice == 2:
+    print(scissors + "The player wins!")
+  else:
+    print(rock + "It's a draw!")
+elif users_choice == 1:
+  print(paper)
+  if computers_choice == 2:
+    print(scissors + "The computer wins")
+  elif computers_choice == 0:
+    print(rock + "The computer wins")
+  else:
+    print(paper + "It's a draw!")
+else:
+  print(scissors)
+  if computers_choice == 0:
+    print(rock + "The computer wins")
+  elif computers_choice == 1:
+    print(paper + "The player wins!")
+  else:
+    print(scissors + "It's a draw!")
