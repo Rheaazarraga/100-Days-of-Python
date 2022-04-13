@@ -70,3 +70,7 @@ print(f"The highest score is: {highest_score}")
 # Hint: you will need to use the range() function in any of the solutions.
 
 # Write your code below this row 👇
+total = 0
+for number in range(2, 101, 2):
+    total += number
+print(total)
